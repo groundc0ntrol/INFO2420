@@ -1,0 +1,196 @@
+
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #005A9C;
+}
+
+a:link {
+    color: #0066CC;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+a:hover {
+    color: #008080;
+}
+
+
+header {
+    width: 900px;
+    height: 200px;
+    background-color: #c4e5ff; 
+    padding: 17px 0;
+    overflow: hidden;          
+}
+
+
+#logo-area {
+    float: left;
+    margin-left: 20px;
+}
+
+#logo {
+    height: 120px;            
+}
+
+
+#banner-area {
+    float: left;
+    margin-left: 20px;
+}
+
+#banner {
+    height: 120px;             
+}
+
+
+nav {
+    float: right;
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 8px;
+}
+
+nav a:link,
+nav a:visited {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #0074b7;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #005a8a;
+    color: #ffffcc;
+}
+
+
+section {
+    width: 900px;
+    background-image: url("Images/2colback.png");
+    background-repeat: repeat-y;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+article p {
+    text-align: left;
+    line-height: 1.4;
+}
+
+
+#print-area {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+
+#thumbs,
+#image {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+#thumbs {
+    margin-top: 10px;
+}
+
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+}
+
+#image {
+    margin-top: 10px;
+}
+
+#theImage {
+    max-width: 100%;
+    height: auto;
+    border: solid 3px #000;
+}
+
+
+#bottomText {
+    margin-top: 8px;
+}
+
+
+
+#mini-tribute {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#mini-tribute img {
+    width: 150px;     
+    height: auto;
+    border: 3px solid #005A9C;
+}
+
+
+
+footer {
+    width: 900px;
+    background-color: #005A9C;  
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+    font-size: 14px;
+}
+
+footer a:link,
+footer a:visited {
+    color: #ffffcc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
