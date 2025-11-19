@@ -13,7 +13,7 @@ if (document.images) {
 
 
 var imgArray = new Array(
-    "DogTrick2Lg.jpg",
+    "Projects/project7/Images/Fullsize/DogTrick2Lg.jpg",
     "HuntingDogsLg.jpg",
     "KidsDogLg.jpg",
     "BirdDogLg.jpg"
