@@ -28,7 +28,7 @@ var titleArray = new Array(
 );
 
 
-var imgPath = "Images/FullSize/";
+var imgPath = "Images/Fullsize/";
 
 
 function swapImage(imgID) {
