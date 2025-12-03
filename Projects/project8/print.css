@@ -1,0 +1,30 @@
+﻿
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+nav,
+footer {
+    display: none;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    width: 95%;
+    margin: 0 auto;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
